@@ -9,11 +9,44 @@ normal variable or auto variable is destroyed when a function call where variabl
 standard predefined macro: name all start with double underscores   
 assign operator: assign a value to a variable (= += -= *= /= %=)
 data type:unsigned long  unsigned int 
-pointer store variable address or memory location    unary operator &:return variable adderss      
+pointer store variable address or memory location    unary operator &:return variable adderss    &var     
 variable address is chaging when each running  
 unary operator *(asterisk):declare pointer variable  when pointer declared must has a * before its name   access value (dereference)
-add 2 addresses no sense     subtract 2 addresses show the 2 addressed offset    
+add 2 addresses no sense     subtract 2 addresses show the 2 addressed offset     *&var
 pointer arithmetic is meaningless only apply on an array     pointer and multi dimen array
+pointer to variable:pointer and value pointed by pointer both stored in read-write area   could change ptr value and object value
+ptr pointing to     pointer could chage pointed object value 
+pointer to constant:const int *ptr;/int const *ptr;  could change pointer to any other integer variable cannot change
+the object value pointer pointing to     pointer is stored in read-write area    object_pointed in read-only area/read-write area
+pointer cannot change pointed object value 
+constant pointer to variable:int *const ptr(constant pointer to an int pointer) could change objectvalue pointed 
+cannot change pointer to point another variable 
+constant pointer to constant:const int *const ptr:a constant pointer to a constant variable
+cannot change object value pointed by pointer  cannot point to another variable
+use pointer ability could create different data structure   different ways to organize data in memory 
+function declare:return_type function_name(parameters);parameters name not important in function declare only parameters type
+is important   when define a function in one souce file then call the function in another file will need function declare before
+call the function
+function define:return_type function_name(parameters) {}
+call function:need function name and function parameters  if function return a value could store that value
+formal parameters:behave like local variable live inside function    actual argument
+call by value:parameter change cannot change argument    call by reference:parameter change could change argument 
+function parameter:
+arrow operator:->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
